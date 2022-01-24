@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Source Code Pro;
+    src: url(https://cdn.jsdelivr.net/npm/source-code-pro@2.38.0/TTF/SourceCodePro-Regular.ttf);
+}
+
+
+li {
+  font-size: 20px;
+}
+
+  p3{
+  color: red;
+}
+
+p4{
+  color: red;
+}
+p6{
+  font-size: 20px;
+}
+p7{
+  font-size: 24px;
+}
+p8{
+  font-size: 20px;
+}
+p9{
+  font-size: 24px;
+}
+
+div > div {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 20px;
+}
+
+div > div > p:nth-child(1) {
+    font-style: italic;
+}
+
+div > div:nth-child(2) > p:nth-child(2) {
+    color: white;
+}
+
+div > div:nth-child(2) > p:nth-child(3) {
+    color: white;
+}
+
+button {
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+button:active {
+    border-radius: 0px;
+    width: 200px;
+    height: 150px;
